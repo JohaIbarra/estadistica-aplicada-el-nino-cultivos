@@ -1,0 +1,3 @@
+# Dependencias para desplegar el dashboard (Streamlit Community Cloud).
+# Para desarrollo: pip install -e ".[dev]"
+-e .

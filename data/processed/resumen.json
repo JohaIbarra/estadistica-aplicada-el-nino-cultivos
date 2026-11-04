@@ -1,0 +1,45 @@
+{
+  "inferencia": {
+    "efecto_nacional_pct": 0.04435543949248277,
+    "efecto_nacional_ic": [
+      -1.074039778261271,
+      1.8404318827782484
+    ],
+    "p_permutacion": 0.9467633091727068,
+    "ratio_se_bootstrap_vs_ingenuo": 6.205464525493432
+  },
+  "panel": {
+    "filas": 101032,
+    "series": 6257,
+    "municipios": 1092,
+    "anios": [
+      2007,
+      2025
+    ],
+    "frac_repetidos": 0.30698194631403913,
+    "frac_enteros": 0.37543550558238975
+  },
+  "pronostico": {
+    "anio_pronostico": 2027,
+    "roc_auc": 0.7081459565214911,
+    "pr_auc": 0.3798831188851212,
+    "brier_skill": 0.12099245429984884,
+    "precision_top10": 0.515273132664437,
+    "pr_auc_ic": [
+      0.3663447570099351,
+      0.3955194948976689
+    ],
+    "precision_top10_ic": [
+      0.4948854898180273,
+      0.5355137963182472
+    ],
+    "modelo_elegido": "LightGBM",
+    "control_negativo_roc_auc": 0.493911792331585,
+    "control_municipio_anio_roc_auc": 0.5684492037601218,
+    "control_negativo_pr_auc": 0.15778175349547136,
+    "tasa_base": 0.15853196280853532,
+    "series_pronosticadas": 5091,
+    "hectareas_en_riesgo": 229462.14396739472,
+    "hectareas_en_riesgo_neutral": 219082.74567490362
+  }
+}

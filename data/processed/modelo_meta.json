@@ -1,0 +1,64 @@
+{
+  "categorias": {
+    "variante": [
+      "AGUACATE",
+      "ARROZ RIEGO",
+      "ARROZ SECANO MANUAL",
+      "ARROZ SECANO MECANIZADO",
+      "BANANO",
+      "BANANO EXPORTACION",
+      "CACAO",
+      "CAFE",
+      "CANA PANELERA",
+      "FRIJOL",
+      "MAIZ TECNIFICADO",
+      "MAIZ TRADICIONAL",
+      "PALMA DE ACEITE",
+      "PAPA",
+      "PAPA CRIOLLA",
+      "PLATANO",
+      "PLATANO EXPORTACION",
+      "YUCA",
+      "YUCA INDUSTRIAL"
+    ],
+    "region": [
+      "Amazonía",
+      "Andina",
+      "Caribe",
+      "Orinoquía",
+      "Pacífica"
+    ]
+  },
+  "features": [
+    "variante",
+    "region",
+    "oni_jas_prev",
+    "oni_tend_prev",
+    "lluvia_anom_pct_prev",
+    "temp_anom_prev",
+    "tmax_anom_prev",
+    "meses_secos_prev",
+    "meses_humedos_prev",
+    "desvio_ultimo",
+    "volatilidad",
+    "tendencia",
+    "tasa_malas_hist",
+    "mala_ultima",
+    "frac_repetidos",
+    "anios_historia",
+    "log_area",
+    "mezcla_metodologia",
+    "lat",
+    "lon",
+    "elevacion_m"
+  ],
+  "anio_pronostico": 2027,
+  "oni_jas_prev": 2.1266666666666665,
+  "oni_tend_prev": 1.07,
+  "oni_entrenamiento": [
+    -0.7833333333333333,
+    1.7299999999999998
+  ],
+  "calibrador": null,
+  "modelo_elegido": "LightGBM"
+}

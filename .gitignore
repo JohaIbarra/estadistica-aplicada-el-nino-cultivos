@@ -1,0 +1,14 @@
+# Datos crudos: se regeneran con `agroclima download` (~200 MB)
+data/raw/
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+.DS_Store
+# Configuración local del editor/agente
+.claude/

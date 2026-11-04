@@ -1,0 +1,4 @@
+# Finales de línea LF en el repositorio (CI en Linux), sin importar el sistema de quien clona
+* text=auto eol=lf
+*.parquet binary
+*.png binary
